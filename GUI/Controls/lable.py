@@ -7,6 +7,10 @@ win.title('Day la Title')
 # win.geometry('320x640+100+100')
 # win.resizable(width=False, height=True)
 
+
+#transparent
+win.wm_attributes('-alpha',0.8)
+
 scrH = win.winfo_screenheight()
 scrW = win.winfo_screenwidth()
 winH = 320
